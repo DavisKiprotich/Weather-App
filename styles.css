@@ -52,3 +52,44 @@ body{
     scale: 0;
     opacity: 0;
 }
+
+.sidebar nav{
+    padding: 0 30px;
+}
+
+.sidebar .nav-title{
+    pointer-events: none;
+    margin: 40px 0 18px;
+    color: #eee;
+}
+ 
+.sidebar nav .nav-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 5px;
+    width: 100%;
+    height: 54px;
+    color: #fff;
+    padding: 0 16px;
+    height: 9px 0;
+}
+
+.sidebar nav .nav-item.active{
+    background: #8e21c0;
+}
+
+.sidebar nav .nav-item:hover{
+    background: rgba(255, 255, 255, .1);
+}
+
+.sidebar nav .nav-item i{
+    font-size: 24px;
+}
+
+.sidebar nav .nav-item span{
+    font-size: 16px;
+    margin-left: 5px;
+    pointer-events: none;
+}
