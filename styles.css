@@ -61,6 +61,7 @@ body{
     pointer-events: none;
     margin: 40px 0 18px;
     color: #eee;
+    opacity: 0;
 }
  
 .sidebar nav .nav-item {
@@ -74,6 +75,7 @@ body{
     color: #fff;
     padding: 0 16px;
     height: 9px 0;
+    transition: .4s;
 }
 
 .sidebar nav .nav-item.active{
@@ -92,4 +94,13 @@ body{
     font-size: 16px;
     margin-left: 5px;
     pointer-events: none;
+}
+
+.sidebar hr{
+    width: 100%;
+    height: 2px;
+    border-radius: 3px;
+    margin: 40px 0 45px;
+    opacity: 0;
+    background: rgba(255, 255, 255, .1);
 }
