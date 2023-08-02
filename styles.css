@@ -8,10 +8,13 @@
 
 body{
     height: 100vh;
-    background-image: url(./images/);
+    background-image: url(./images/back.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
+}
+.logo{
+    border-radius: 50%;
 }
 
 .sidebar .logo{
@@ -19,8 +22,8 @@ body{
 }
 
 .sidebar{
-    /* width: 360px; */
-    width: 120px;
+    width: 360px;
+    /* width: 120px; */
     height: 100%;
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
